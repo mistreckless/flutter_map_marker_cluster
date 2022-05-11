@@ -69,7 +69,7 @@ class PopupOptions {
 
   PopupOptions({
     required this.popupBuilder,
-    this.popupSnap = PopupSnap.markerTop,
+    this.popupSnap = const DefaultPopupSnap(DefaultPopupSnapType.markerTop),
     PopupController? popupController,
     this.popupAnimation,
     this.markerRotate = false,

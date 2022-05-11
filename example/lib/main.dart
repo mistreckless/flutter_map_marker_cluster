@@ -272,7 +272,7 @@ class _HomePageState extends State<HomePage> {
                   color: Colors.black12,
                   borderStrokeWidth: 3),
               popupOptions: PopupOptions(
-                  popupSnap: PopupSnap.markerTop,
+                  popupSnap: DefaultPopupSnap(DefaultPopupSnapType.markerTop),
                   popupController: _popupController,
                   popupBuilder: (_, marker) => Container(
                         width: 200,
